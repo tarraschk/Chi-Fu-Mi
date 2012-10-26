@@ -9,6 +9,12 @@
 #ifndef Chi_Fu_Mi_Pierre_h
 #define Chi_Fu_Mi_Pierre_h
 
+#include <iostream>
 
+class Pierre :public Coup {
+    public:
+        Pierre();
+        virtual std::string type();
+}
 
 #endif

@@ -9,6 +9,16 @@
 #ifndef Chi_Fu_Mi_Papier_h
 #define Chi_Fu_Mi_Papier_h
 
+#include <iostream>
+
+class Papier {
+public:
+    //Constructeurs de Papier
+    Papier();
+
+    //Methodes
+    virtual std::string type();
+};
 
 
 #endif
