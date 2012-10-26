@@ -7,11 +7,17 @@
 //
 
 #include <iostream>
+#include "Coup.h"
+#include "Papier.h"
+
+using namespace std;
 
 int main (int argc, const char * argv[])
 {
     // insert code here...
     std::cout << "Hello, World!\n";
+    Papier * papier = new Papier();
+    std::cout << papier->type();
     return 0;
 }
 

@@ -9,6 +9,15 @@
 #ifndef Chi_Fu_Mi_Papier_h
 #define Chi_Fu_Mi_Papier_h
 
+#include "Coup.h"
 
+class Papier :public Coup {
+public:
+    //Constructeurs de Papier
+    Papier();
+    
+    //Méthodes de Papier
+    virtual std::string type();
+};
 
 #endif

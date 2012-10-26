@@ -17,7 +17,7 @@ public:
     Coup();
     
     //Methodes
-    virtual std::string type();
+    virtual std::string type() = 0;
 };
 
 #endif
