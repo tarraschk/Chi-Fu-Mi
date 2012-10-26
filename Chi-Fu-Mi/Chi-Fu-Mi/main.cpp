@@ -17,6 +17,9 @@ int main (int argc, const char * argv[])
     // insert code here...
     std::cout << "Hello, World!\n";
     Papier * papier = new Papier();
+    Ciseaux * ciseaux = new Ciseaux();
+    Pierre * pierre = new Pierre();
+    
     std::cout << papier->type();
     return 0;
 }
