@@ -3,3 +3,6 @@
 
 Joueur::Joueur(){
 };
+
+Joueur::Joueur(int n) : num_joueur(n){
+};
