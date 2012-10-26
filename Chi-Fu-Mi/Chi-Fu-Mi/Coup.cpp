@@ -10,4 +10,4 @@
 #include <iostream>
 
 Coup::Coup() {
-}
+};
