@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C7FC1B3163AB2CC00488686 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1B2163AB2CC00488686 /* main.cpp */; };
+		9C7FC1B5163AB2CC00488686 /* Chi_Fu_Mi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7FC1B4163AB2CC00488686 /* Chi_Fu_Mi.1 */; };
+		9C7FC1BC163AB59900488686 /* Coup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1BB163AB59900488686 /* Coup.cpp */; };
+		9C7FC1BF163AB5B800488686 /* Pierre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1BE163AB5B800488686 /* Pierre.cpp */; };
+		9C7FC1C1163AB5BF00488686 /* Papier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C0163AB5BF00488686 /* Papier.cpp */; };
+		9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C2163AB5C800488686 /* Ciseaux.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C7FC1AC163AB2CC00488686 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9C7FC1B5163AB2CC00488686 /* Chi_Fu_Mi.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C7FC1AE163AB2CC00488686 /* Chi-Fu-Mi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chi-Fu-Mi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7FC1B2163AB2CC00488686 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C7FC1B4163AB2CC00488686 /* Chi_Fu_Mi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chi_Fu_Mi.1; sourceTree = "<group>"; };
+		9C7FC1BB163AB59900488686 /* Coup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coup.cpp; sourceTree = "<group>"; };
+		9C7FC1BD163AB5A600488686 /* Coup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coup.h; sourceTree = "<group>"; };
+		9C7FC1BE163AB5B800488686 /* Pierre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pierre.cpp; sourceTree = "<group>"; };
+		9C7FC1C0163AB5BF00488686 /* Papier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Papier.cpp; sourceTree = "<group>"; };
+		9C7FC1C2163AB5C800488686 /* Ciseaux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ciseaux.cpp; sourceTree = "<group>"; };
+		9C7FC1C4163AB60800488686 /* Pierre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pierre.h; sourceTree = "<group>"; };
+		9C7FC1C5163AB61000488686 /* Papier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Papier.h; sourceTree = "<group>"; };
+		9C7FC1C6163AB61700488686 /* Ciseaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ciseaux.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7FC1AB163AB2CC00488686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C7FC1A3163AB2CB00488686 = {
+			isa = PBXGroup;
+			children = (
+				9C7FC1B1163AB2CC00488686 /* Chi-Fu-Mi */,
+				9C7FC1AF163AB2CC00488686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7FC1AF163AB2CC00488686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7FC1AE163AB2CC00488686 /* Chi-Fu-Mi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7FC1B1163AB2CC00488686 /* Chi-Fu-Mi */ = {
+			isa = PBXGroup;
+			children = (
+				9C7FC1B2163AB2CC00488686 /* main.cpp */,
+				9C7FC1B4163AB2CC00488686 /* Chi_Fu_Mi.1 */,
+				9C7FC1BB163AB59900488686 /* Coup.cpp */,
+				9C7FC1BD163AB5A600488686 /* Coup.h */,
+				9C7FC1BE163AB5B800488686 /* Pierre.cpp */,
+				9C7FC1C4163AB60800488686 /* Pierre.h */,
+				9C7FC1C0163AB5BF00488686 /* Papier.cpp */,
+				9C7FC1C5163AB61000488686 /* Papier.h */,
+				9C7FC1C2163AB5C800488686 /* Ciseaux.cpp */,
+				9C7FC1C6163AB61700488686 /* Ciseaux.h */,
+			);
+			path = "Chi-Fu-Mi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7FC1AD163AB2CC00488686 /* Chi-Fu-Mi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7FC1B8163AB2CC00488686 /* Build configuration list for PBXNativeTarget "Chi-Fu-Mi" */;
+			buildPhases = (
+				9C7FC1AA163AB2CC00488686 /* Sources */,
+				9C7FC1AB163AB2CC00488686 /* Frameworks */,
+				9C7FC1AC163AB2CC00488686 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chi-Fu-Mi";
+			productName = "Chi-Fu-Mi";
+			productReference = 9C7FC1AE163AB2CC00488686 /* Chi-Fu-Mi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7FC1A5163AB2CB00488686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ecole Centrale de Nantes";
+			};
+			buildConfigurationList = 9C7FC1A8163AB2CB00488686 /* Build configuration list for PBXProject "Chi-Fu-Mi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C7FC1A3163AB2CB00488686;
+			productRefGroup = 9C7FC1AF163AB2CC00488686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7FC1AD163AB2CC00488686 /* Chi-Fu-Mi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7FC1AA163AB2CC00488686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7FC1B3163AB2CC00488686 /* main.cpp in Sources */,
+				9C7FC1BC163AB59900488686 /* Coup.cpp in Sources */,
+				9C7FC1BF163AB5B800488686 /* Pierre.cpp in Sources */,
+				9C7FC1C1163AB5BF00488686 /* Papier.cpp in Sources */,
+				9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C7FC1B6163AB2CC00488686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C7FC1B7163AB2CC00488686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C7FC1B9163AB2CC00488686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C7FC1BA163AB2CC00488686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7FC1A8163AB2CB00488686 /* Build configuration list for PBXProject "Chi-Fu-Mi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7FC1B6163AB2CC00488686 /* Debug */,
+				9C7FC1B7163AB2CC00488686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7FC1B8163AB2CC00488686 /* Build configuration list for PBXNativeTarget "Chi-Fu-Mi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7FC1B9163AB2CC00488686 /* Debug */,
+				9C7FC1BA163AB2CC00488686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7FC1A5163AB2CB00488686 /* Project object */;
+}
