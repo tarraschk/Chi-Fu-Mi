@@ -10,8 +10,8 @@
 #include <iostream>
 
 Papier::Papier() {
-}
+};
 
 std::string Papier::type() {
     return "Papier";
-}
+};

@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
-#include Pierre.h
+#include "Pierre.h"
 
-class Pierre :public Coup {
-    public:
-        Pierre(){};
-        virtual std::string type(){
-            count << "Pierre";
-        }
+Pierre::Pierre() {
+};
+
+std::string Pierre::type(){
+    return "Pierre";
 };

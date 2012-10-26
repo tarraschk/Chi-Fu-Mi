@@ -19,3 +19,5 @@ public:
     //Méthodes de Papier
     virtual std::string type();
 };
+
+#endif

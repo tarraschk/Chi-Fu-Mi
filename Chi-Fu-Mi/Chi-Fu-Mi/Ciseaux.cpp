@@ -10,7 +10,7 @@
 #include <iostream>
 
 Ciseaux::Ciseaux() {
-}
+};
 
 std::string Ciseaux::type() {
     return "Ciseaux";

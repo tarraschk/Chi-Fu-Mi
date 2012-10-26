@@ -9,6 +9,15 @@
 #ifndef Chi_Fu_Mi_Ciseaux_h
 #define Chi_Fu_Mi_Ciseaux_h
 
+#include "Coup.h"
 
+class Ciseaux :public Coup {
+public:
+    //Constructeurs de Ciseaux
+    Ciseaux();
+    
+    //Méthodes de Ciseaux
+    virtual std::string type();
+};
 
 #endif
