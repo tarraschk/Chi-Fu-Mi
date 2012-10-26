@@ -12,6 +12,6 @@
 Pierre::Pierre() {
 };
 
-std::string Pierre::type(){
+std::string Pierre::type() const{
     return "Pierre";
 };

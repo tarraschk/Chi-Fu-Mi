@@ -17,7 +17,7 @@ public:
     Ciseaux();
     
     //Méthodes de Ciseaux
-    virtual std::string type();
+    virtual std::string type() const;
 };
 
 #endif

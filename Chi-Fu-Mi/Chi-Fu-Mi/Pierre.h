@@ -14,7 +14,7 @@
 class Pierre :public Coup {
     public:
         Pierre();
-        virtual std::string type();
+        virtual std::string type() const;
 };
 
 #endif

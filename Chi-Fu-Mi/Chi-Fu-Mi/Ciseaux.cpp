@@ -12,6 +12,6 @@
 Ciseaux::Ciseaux() {
 };
 
-std::string Ciseaux::type() {
+std::string Ciseaux::type() const {
     return "Ciseaux";
 };

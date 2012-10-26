@@ -17,7 +17,7 @@ public:
     Papier();
 
     //Méthodes de Papier
-    virtual std::string type();
+    virtual std::string type() const;
 };
 
 #endif

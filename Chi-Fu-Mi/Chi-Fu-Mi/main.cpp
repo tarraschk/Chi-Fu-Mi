@@ -21,10 +21,23 @@ int main (int argc, const char * argv[])
     Coup * papier = new Papier();
     Coup * ciseaux = new Ciseaux();
     Coup * pierre = new Pierre();
+    Coup * pierre2 = new Pierre();
     
     std::cout << papier->type();
     std::cout << ciseaux->type();
     std::cout << pierre->type();
+    if(pierre==ciseaux) {
+        std::cout << "Pierre et Ciseaux sont égaux!";
+    }
+    else{
+        std::cout << "Pierre et Ciseaux sont différents!";
+    }
+    if(pierre==pierre2) {
+        std::cout << "Pierre et Pierre2 sont égaux!";
+    }
+    else{
+        std::cout << "Pierre et Pierre2 sont différents!";
+    }
     return 0;
 }
 

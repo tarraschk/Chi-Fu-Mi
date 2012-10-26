@@ -11,3 +11,7 @@
 
 Coup::Coup() {
 };
+
+bool Coup::operator==(const Coup& coup2) {
+    return (this->type() == coup2.type());
+};

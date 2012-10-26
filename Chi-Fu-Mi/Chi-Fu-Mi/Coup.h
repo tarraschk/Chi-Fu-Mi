@@ -17,7 +17,8 @@ public:
     Coup();
     
     //Methodes
-    virtual std::string type() = 0;
+    virtual std::string type() const = 0;
+    bool operator==(const Coup&);
 };
 
 #endif

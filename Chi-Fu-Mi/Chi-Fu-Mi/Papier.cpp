@@ -12,6 +12,6 @@
 Papier::Papier() {
 };
 
-std::string Papier::type() {
+std::string Papier::type() const {
     return "Papier";
 };
