@@ -11,6 +11,7 @@
 
 class Pierre :public Coup {
     public:
+        Pierre(){};
         virtual std::string type(){
             count << "Pierre";
         }
