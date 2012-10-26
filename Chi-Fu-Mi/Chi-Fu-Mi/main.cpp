@@ -11,6 +11,7 @@
 #include "Papier.h"
 #include "Ciseaux.h"
 #include "Pierre.h"
+#include "Joueur.h"
 
 using namespace std;
 
@@ -21,23 +22,29 @@ int main (int argc, const char * argv[])
     Coup * papier = new Papier();
     Coup * ciseaux = new Ciseaux();
     Coup * pierre = new Pierre();
-    Coup * pierre2 = new Pierre();
     
     std::cout << papier->type();
+    std::cout << "\n";
     std::cout << ciseaux->type();
+    std::cout << "\n";
     std::cout << pierre->type();
-    if(pierre==ciseaux) {
+    std::cout << "\n";
+    if(*pierre==*ciseaux) {
         std::cout << "Pierre et Ciseaux sont égaux!";
     }
     else{
         std::cout << "Pierre et Ciseaux sont différents!";
     }
-    if(pierre==pierre2) {
-        std::cout << "Pierre et Pierre2 sont égaux!";
+    std::cout << "\n";
+    if(*pierre==*pierre) {
+        std::cout << "Pierre et Pierre sont égaux!";
     }
     else{
-        std::cout << "Pierre et Pierre2 sont différents!";
+        std::cout << "Pierre et Pierre sont différents!";
     }
+    std::cout << "\n";
+    std::cout << *pierre;
+    std::cout << "\n";
     return 0;
 }
 

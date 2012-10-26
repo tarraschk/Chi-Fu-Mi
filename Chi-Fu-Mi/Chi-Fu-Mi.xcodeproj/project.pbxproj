@@ -13,6 +13,7 @@
 		9C7FC1BF163AB5B800488686 /* Pierre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1BE163AB5B800488686 /* Pierre.cpp */; };
 		9C7FC1C1163AB5BF00488686 /* Papier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C0163AB5BF00488686 /* Papier.cpp */; };
 		9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C2163AB5C800488686 /* Ciseaux.cpp */; };
+		9C7FC1C9163AD51C00488686 /* Joueur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C7163AD51C00488686 /* Joueur.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		9C7FC1C4163AB60800488686 /* Pierre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pierre.h; sourceTree = "<group>"; };
 		9C7FC1C5163AB61000488686 /* Papier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Papier.h; sourceTree = "<group>"; };
 		9C7FC1C6163AB61700488686 /* Ciseaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ciseaux.h; sourceTree = "<group>"; };
+		9C7FC1C7163AD51C00488686 /* Joueur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Joueur.cpp; sourceTree = "<group>"; };
+		9C7FC1C8163AD51C00488686 /* Joueur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joueur.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				9C7FC1B2163AB2CC00488686 /* main.cpp */,
+				9C7FC1C7163AD51C00488686 /* Joueur.cpp */,
+				9C7FC1C8163AD51C00488686 /* Joueur.h */,
 				9C7FC1B4163AB2CC00488686 /* Chi_Fu_Mi.1 */,
 				9C7FC1BB163AB59900488686 /* Coup.cpp */,
 				9C7FC1BD163AB5A600488686 /* Coup.h */,
@@ -141,6 +146,7 @@
 				9C7FC1BF163AB5B800488686 /* Pierre.cpp in Sources */,
 				9C7FC1C1163AB5BF00488686 /* Papier.cpp in Sources */,
 				9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */,
+				9C7FC1C9163AD51C00488686 /* Joueur.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 #define Chi_Fu_Mi_Coup_h
 
 #include <iostream>
+using namespace std;
 
 class Coup {
 public:
@@ -19,6 +20,8 @@ public:
     //Methodes
     virtual std::string type() const = 0;
     bool operator==(const Coup&);
+    bool operator<(const Coup&);
+    friend ostream& operator<<(ostream&, const Coup&);
 };
 
 #endif
