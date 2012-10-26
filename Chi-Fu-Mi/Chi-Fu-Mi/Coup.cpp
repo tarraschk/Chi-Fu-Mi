@@ -6,4 +6,8 @@
 //  Copyright 2012 Ecole Centrale de Nantes. All rights reserved.
 //
 
+#include "Coup.h"
 #include <iostream>
+
+Coup::Coup() {
+}

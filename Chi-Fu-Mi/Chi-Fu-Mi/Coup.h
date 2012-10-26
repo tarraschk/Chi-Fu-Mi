@@ -9,6 +9,13 @@
 #ifndef Chi_Fu_Mi_Coup_h
 #define Chi_Fu_Mi_Coup_h
 
-
+class Coup {
+public:
+    //Constructeurs de Coup
+    Coup();
+    
+    //Methodes
+    virtual std::string type();
+}
 
 #endif
