@@ -18,6 +18,8 @@ public:
     
     Partie();
     Partie(int);
+    void jouer_tour();
+    void afficher_scores();
 };
 
 
