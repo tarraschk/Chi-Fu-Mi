@@ -1,11 +1,3 @@
-//
-//  Humain.cpp
-//  Chi-Fu-Mi
-//
-//  Created by Maxime Alay-eddine on 05/11/12.
-//  Copyright 2012 Ecole Centrale de Nantes. All rights reserved.
-//
-
 #include "Humain.h"
 #include "Coup.h"
 #include "Pierre.h"
@@ -18,7 +10,7 @@
 Humain::Humain() {
 };
 
-Humain::Humain(int i) : Joueur(i){
+Humain::Humain(int i) : Joueur(i) {
     
 };
 
@@ -34,15 +26,15 @@ Coup& Humain::obtenir_coup() const {
         iss >> entierJoue;
         switch (entierJoue) {
             case 1:
-                coupJoue = new Pierre(this);
+                coupJoue = new Pierre(*this);
                 saisieReussie = true;
                 break;
             case 2:
-                coupJoue = new Papier(this);
+                coupJoue = new Papier(*this);
                 saisieReussie = true;
                 break;
             case 3:
-                coupJoue = new Ciseaux(this);
+                coupJoue = new Ciseaux(*this);
                 saisieReussie = true;
                 break;
             default:

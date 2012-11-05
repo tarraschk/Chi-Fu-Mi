@@ -10,8 +10,10 @@
 #define Chi_Fu_Mi_Coup_h
 
 #include <iostream>
-#include "Joueur.h"
 using namespace std;
+
+
+class Joueur; // Forward declaration de Joueur pour éviter dépendances cycliques
 
 class Coup {
 public:

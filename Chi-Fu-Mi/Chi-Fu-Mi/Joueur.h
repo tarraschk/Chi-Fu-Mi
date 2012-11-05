@@ -1,5 +1,5 @@
-#ifndef Chi_Fu_Mi_Joueur_h
-#define Chi_Fu_Mi_Joueur_h
+#ifndef JOUEUR_H
+#define JOUEUR_H
 
 #include "Coup.h"
 
@@ -14,4 +14,4 @@ class Joueur
     private:
 };
 
-#endif // Chi_Fu_Mi_Joueur_h
+#endif // JOUEUR_H
