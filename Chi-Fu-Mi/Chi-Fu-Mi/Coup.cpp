@@ -9,7 +9,7 @@
 #include "Coup.h"
 #include <iostream>
 
-Coup::Coup() {
+Coup::Coup(const Joueur& j) : joueur(j){
 };
 
 bool Coup::operator==(const Coup& coup2) {

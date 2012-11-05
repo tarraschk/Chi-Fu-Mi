@@ -9,7 +9,7 @@
 #include "Papier.h"
 #include <iostream>
 
-Papier::Papier() {
+Papier::Papier(const Joueur& j) : Coup(j) {
 };
 
 std::string Papier::type() const {

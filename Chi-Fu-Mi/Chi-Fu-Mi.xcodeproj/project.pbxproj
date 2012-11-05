@@ -15,6 +15,8 @@
 		9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C2163AB5C800488686 /* Ciseaux.cpp */; };
 		9C7FC1C9163AD51C00488686 /* Joueur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1C7163AD51C00488686 /* Joueur.cpp */; };
 		9C7FC1CB163AD87500488686 /* Partie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC1CA163AD87500488686 /* Partie.cpp */; };
+		9CF358AF1647F2120011415D /* Humain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF358AE1647F2120011415D /* Humain.cpp */; };
+		9CF358B71648000D0011415D /* IA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF358B61648000D0011415D /* IA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,10 @@
 		9C7FC1C8163AD51C00488686 /* Joueur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joueur.h; sourceTree = "<group>"; };
 		9C7FC1CA163AD87500488686 /* Partie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Partie.cpp; sourceTree = "<group>"; };
 		9C7FC1CC163AD87C00488686 /* Partie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partie.h; sourceTree = "<group>"; };
+		9CF358AE1647F2120011415D /* Humain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Humain.cpp; sourceTree = "<group>"; };
+		9CF358B41647F2720011415D /* Humain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humain.h; sourceTree = "<group>"; };
+		9CF358B5164800010011415D /* IA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IA.h; sourceTree = "<group>"; };
+		9CF358B61648000D0011415D /* IA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IA.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				9C7FC1CC163AD87C00488686 /* Partie.h */,
 				9C7FC1C7163AD51C00488686 /* Joueur.cpp */,
 				9C7FC1C8163AD51C00488686 /* Joueur.h */,
+				9CF358B61648000D0011415D /* IA.cpp */,
+				9CF358B5164800010011415D /* IA.h */,
+				9CF358AE1647F2120011415D /* Humain.cpp */,
+				9CF358B41647F2720011415D /* Humain.h */,
 				9C7FC1B4163AB2CC00488686 /* Chi_Fu_Mi.1 */,
 				9C7FC1BB163AB59900488686 /* Coup.cpp */,
 				9C7FC1BD163AB5A600488686 /* Coup.h */,
@@ -153,6 +163,8 @@
 				9C7FC1C3163AB5C800488686 /* Ciseaux.cpp in Sources */,
 				9C7FC1C9163AD51C00488686 /* Joueur.cpp in Sources */,
 				9C7FC1CB163AD87500488686 /* Partie.cpp in Sources */,
+				9CF358AF1647F2120011415D /* Humain.cpp in Sources */,
+				9CF358B71648000D0011415D /* IA.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				9C7FC1BA163AB2CC00488686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

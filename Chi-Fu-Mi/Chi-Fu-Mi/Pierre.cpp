@@ -9,7 +9,7 @@
 #include <iostream>
 #include "Pierre.h"
 
-Pierre::Pierre() {
+Pierre::Pierre(const Joueur& j) : Coup(j){
 };
 
 std::string Pierre::type() const{

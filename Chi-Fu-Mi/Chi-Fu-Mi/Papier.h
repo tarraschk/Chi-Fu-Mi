@@ -14,7 +14,7 @@
 class Papier :public Coup {
 public:
     //Constructeurs de Papier
-    Papier();
+    Papier(const Joueur&);
 
     //Méthodes de Papier
     virtual std::string type() const;

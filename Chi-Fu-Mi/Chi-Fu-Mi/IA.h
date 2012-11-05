@@ -1,22 +1,21 @@
 //
-//  Humain.h
+//  IA.h
 //  Chi-Fu-Mi
 //
 //  Created by Maxime Alay-eddine on 05/11/12.
 //  Copyright 2012 Ecole Centrale de Nantes. All rights reserved.
 //
 
-#ifndef Chi_Fu_Mi_Humain_h
-#define Chi_Fu_Mi_Humain_h
+#ifndef Chi_Fu_Mi_IA_h
+#define Chi_Fu_Mi_IA_h
 
 #include "Joueur.h"
 
-class Humain :public Joueur {
+class IA :public Joueur {
 public:
-    Humain();
-    Humain(int);
+    IA();
+    IA(int);
     virtual Coup& obtenir_coup() const;
 };
-
 
 #endif

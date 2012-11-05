@@ -10,13 +10,14 @@
 #define Chi_Fu_Mi_Coup_h
 
 #include <iostream>
+#include "Joueur.h"
 using namespace std;
 
 class Coup {
 public:
     //Constructeurs de Coup
-    Coup();
-    
+    Coup(const Joueur&);
+    const Joueur& joueur;
     //Methodes
     virtual std::string type() const = 0;
     bool operator==(const Coup&);

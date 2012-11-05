@@ -13,7 +13,7 @@
 
 class Pierre :public Coup {
     public:
-        Pierre();
+        Pierre(const Joueur&);
         virtual std::string type() const;
 };
 

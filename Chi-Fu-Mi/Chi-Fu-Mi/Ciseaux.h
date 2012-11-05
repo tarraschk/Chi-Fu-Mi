@@ -14,7 +14,7 @@
 class Ciseaux :public Coup {
 public:
     //Constructeurs de Ciseaux
-    Ciseaux();
+    Ciseaux(const Joueur&);
     
     //Méthodes de Ciseaux
     virtual std::string type() const;
