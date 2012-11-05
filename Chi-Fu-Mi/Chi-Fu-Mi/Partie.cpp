@@ -11,8 +11,17 @@
 #include "Partie.h"
 
 Partie::Partie() {};
+
 Partie::Partie(int nbre_j) : nbre_joueurs(nbre_j) {
     for(int i=0;i<nbre_j;i++) {
         //this->joueurs[i] = new Joueur(i);
     }
+};
+
+void Partie::jouer_tour() {
+    
+};
+
+void Partie::afficher_scores() {
+    
 };
