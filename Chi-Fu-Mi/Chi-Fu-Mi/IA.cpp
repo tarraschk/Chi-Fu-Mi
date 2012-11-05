@@ -29,13 +29,13 @@ Coup& IA::obtenir_coup() const {
     Coup * coupJoue;
     switch (entierJoue) {
         case 1:
-            coupJoue = new Pierre(this);
+            coupJoue = new Pierre(*this);
             break;
         case 2:
-            coupJoue = new Papier(this);
+            coupJoue = new Papier(*this);
             break;
         case 3:
-            coupJoue = new Ciseaux(this);
+            coupJoue = new Ciseaux(*this);
             break;
         default:
             std::cout << "Erreur avec l'IA ! Recommencez...\n";

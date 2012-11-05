@@ -18,33 +18,7 @@ using namespace std;
 int main (int argc, const char * argv[])
 {
     // insert code here...
-    std::cout << "Hello, World!\n";
-    Coup * papier = new Papier();
-    Coup * ciseaux = new Ciseaux();
-    Coup * pierre = new Pierre();
-    
-    std::cout << papier->type();
-    std::cout << "\n";
-    std::cout << ciseaux->type();
-    std::cout << "\n";
-    std::cout << pierre->type();
-    std::cout << "\n";
-    if(*pierre==*ciseaux) {
-        std::cout << "Pierre et Ciseaux sont égaux!";
-    }
-    else{
-        std::cout << "Pierre et Ciseaux sont différents!";
-    }
-    std::cout << "\n";
-    if(*pierre==*pierre) {
-        std::cout << "Pierre et Pierre sont égaux!";
-    }
-    else{
-        std::cout << "Pierre et Pierre sont différents!";
-    }
-    std::cout << "\n";
-    std::cout << *pierre;
-    std::cout << "\n";
+    std::cout << "Bienvenue dans notre super jeu Pierre Papier Ciseaux!\n";
     return 0;
 }
 
