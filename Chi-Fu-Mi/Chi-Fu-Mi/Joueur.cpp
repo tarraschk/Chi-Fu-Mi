@@ -6,7 +6,3 @@ Joueur::Joueur() : score(0){
 
 Joueur::Joueur(int n) : num_joueur(n), score(0){
 };
-
-/*void Joueur::incrementer_score() {
-    this->score++;
-}*/
