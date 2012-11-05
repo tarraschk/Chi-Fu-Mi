@@ -9,7 +9,10 @@
 #include "Papier.h"
 #include <iostream>
 
+int Papier::nombre = 0;
+
 Papier::Papier(const Joueur& j) : Coup(j) {
+    Papier::nombre++;
 };
 
 std::string Papier::type() const {

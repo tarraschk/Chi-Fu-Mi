@@ -12,12 +12,10 @@
 #include "Coup.h"
 
 class Ciseaux :public Coup {
-public:
-    //Constructeurs de Ciseaux
-    Ciseaux(const Joueur&);
-    
-    //Méthodes de Ciseaux
-    virtual std::string type() const;
+    public:
+        Ciseaux(const Joueur&);
+        static int nombre;
+        virtual std::string type() const;
 };
 
 #endif

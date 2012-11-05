@@ -9,7 +9,10 @@
 #include <iostream>
 #include "Pierre.h"
 
+int Pierre::nombre = 0;
+
 Pierre::Pierre(const Joueur& j) : Coup(j){
+    Pierre::nombre++;
 };
 
 std::string Pierre::type() const{

@@ -9,7 +9,10 @@
 #include "Ciseaux.h"
 #include <iostream>
 
+int Ciseaux::nombre = 0;
+
 Ciseaux::Ciseaux(const Joueur& j) : Coup(j){
+    Ciseaux::nombre++;
 };
 
 std::string Ciseaux::type() const {

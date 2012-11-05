@@ -9,17 +9,21 @@
 #ifndef Chi_Fu_Mi_Partie_h
 #define Chi_Fu_Mi_Partie_h
 
+#include "Coup.h"
 #include "Joueur.h"
 
 class Partie {
 public:
     int nbre_joueurs;
-    Joueur * joueurs[];
+    Joueur * joueurs[6];
+    Coup * coup_joue[6];
+    int scores[6];
     
     Partie();
     Partie(int);
     void jouer_tour();
     void afficher_scores();
+    void afficher_typeCoupsJoues();
 };
 
 

@@ -12,12 +12,10 @@
 #include "Coup.h"
 
 class Papier :public Coup {
-public:
-    //Constructeurs de Papier
-    Papier(const Joueur&);
-
-    //Méthodes de Papier
-    virtual std::string type() const;
+    public:
+        Papier(const Joueur&);
+        static int nombre;
+        virtual std::string type() const;
 };
 
 #endif

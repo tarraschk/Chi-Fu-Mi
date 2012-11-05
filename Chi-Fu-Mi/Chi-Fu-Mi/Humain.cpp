@@ -20,7 +20,7 @@ Coup& Humain::obtenir_coup() const {
     bool saisieReussie = false;
     Coup * coupJoue;
     while(!saisieReussie) {
-        std::cout << "Joueur n°" << this->num_joueur << ", veuillez choisir votre coup (1: Pierre, 2: Feuille, 3: Ciseaux) :\n";
+        std::cout << "Joueur n°" << this->num_joueur + 1 << ", veuillez choisir votre coup (1: Pierre, 2: Papier, 3: Ciseaux) :\n";
         std::cin >> chaineCoup;
         istringstream iss (chaineCoup, istringstream::in);
         iss >> entierJoue;
